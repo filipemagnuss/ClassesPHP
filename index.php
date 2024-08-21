@@ -92,8 +92,11 @@
     $filme = new Filme("Resgate do soldado Ryan", "Diretor", 14, 3);
     var_dump($filme);
 
-    $cliente = new Cliente("Filipe Hahn Magnus", "Estrada geral", 51999575558, 5841962);
+    $cliente = new Cliente("Filipe Hahn Magnus", "Estrada geral", 0, 0);
     var_dump($cliente);
+
+    $locacao = new Locacao( 31, 0, 0, 12.0, 0);
+    var_dump($locacao);
 
       
 
